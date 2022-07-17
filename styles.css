@@ -2,3 +2,54 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    height: 100%;
+}
+
+body {
+    /* margin-right: 50px; */
+    height: 100%;
+    overflow-x: hidden;
+}
+
+nav {
+    padding: 10px;
+}
+
+#navbar {
+    /* z-index: 100000000; */
+    overflow: hidden;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    position: fixed;
+    background-color: rgba(174, 210, 227, 0.1);
+    backdrop-filter: blur(10px);
+    /* box-shadow: 10px 20px 20px grey; Apply when scroll down. */
+}
+
+#navbar a {
+    color: rgb(199, 234, 236);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: dotted;
+    font-size: 17px;
+}
+
+#navbar-logo {
+    width: 40px;
+    justify-self: left;
+}
+
+#main-image {
+    /* The image used */
+    background-image: url("media/trees-aerial-view.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
