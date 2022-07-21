@@ -13,6 +13,9 @@ body {
     overflow-x: hidden;
 }
 
+
+/* ==== Nav Bar Styles ==== */
+
 nav {
     padding: 10px;
     justify-self: center;
@@ -127,6 +130,9 @@ h2 span {
     background: #fff;
     padding: 0 20px;
 }
+
+
+/* ==== Footer Styles ==== */
 
 footer {
     width: 100%;
