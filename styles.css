@@ -137,7 +137,7 @@ h2 span {
 footer {
     width: 100%;
     bottom: 0;
-    background: yellowgreen;
+    background: transparent;
     color: black;
     padding: 100px 0 30px; /* 100px 0 30px */
     border-top-left-radius: 125px; /* 125px */   
