@@ -21,18 +21,28 @@ nav {
     justify-self: center;
 }
 
-#navbar {
+
+/* Nav bar before & after scrolling styles */
+
+.nav-before {
     z-index: 100000000;
     overflow: hidden;
     padding: 1rem;
     margin-right: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-right: 50px;
     position: fixed;
     background-color: rgba(174, 210, 227, 0.1);
     backdrop-filter: blur(10px);
-    /* box-shadow: 10px 20px 20px grey; Apply when scroll down. */
+    bottom: 0;
+}
+
+.nav-sticky {
+    background-color: rgb(227, 174, 174);
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 20px 20px grey;
+    top: 0;
 }
 
 #navbar a {
@@ -139,8 +149,10 @@ footer {
     bottom: 0;
     background: yellowgreen;
     color: black;
-    padding: 100px 0 30px; /* 100px 0 30px */
-    border-top-left-radius: 125px; /* 125px */   
+    padding: 100px 0 30px;
+    /* 100px 0 30px */
+    border-top-left-radius: 125px;
+    /* 125px */
     border-top-right-radius: 125px;
     font-size: 13px;
     line-height: 20px;
