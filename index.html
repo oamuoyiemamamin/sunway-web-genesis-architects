@@ -16,9 +16,9 @@
     <script src="main.js"></script>
 </head>
  
-<body>
+<body style="background: lightblue;">
     <div id="navbar" style="width: 100%;">
-        <img src="media\Logo.png" alt="logo" id="navbar-logo">
+        <a href="index.html"><img src="/media/deer-whale-logo-low-quality-removebg-preview.png" alt="logo" id="navbar-logo"></a>
         <nav>
             <a href="index.html" data-replace="HOME"><span>HOME</span></a>
             <a href="contact-us.html" data-replace="CONTACT US"><span>CONTACT US</span></a>
@@ -27,13 +27,48 @@
     </div>
 
     <div id="main-image">
-        <!-- <img src="/media/trees-aerial-view.jpg" alt=""> -->
+        <div class="slidebar">
+            <div class="slider">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+    
+                <div class="slide first">
+                    <img src="#" alt="">
+                </div>
+                <div class="slide">
+                    <img src="#" alt="">
+                </div>
+                <div class="slide">
+                    <img src="#" alt="">
+                </div>
+                <div class="slide">
+                    <img src="#" alt="">
+                </div>
+                <!-- Auto Navigation -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!-- Manual Navigation -->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+        </div>
+    
     </div>
 
     <div class="main-container">
         <div class="title">
-            <h2><span>Title</span></h2>
-            <p>Hello World</p>
+            <h1>Welcome</h1>
+        </div>
         </div>
 
     </div>
@@ -49,11 +84,11 @@
                 <h3>Links</h3>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
                 </ul>
             </div>
             <div class="ft-section-news">
-                <h3>Newsletter</h3>
+                <h3 class="news">Newsletter</h3>
                 <form>
                     <i class="far fa-envelope"></i>
                     <input type="email" id="femail" name="femail" placeholder="Enter your email id" required>
@@ -74,5 +109,4 @@
         </div>
     </footer>
 </body>
-
 </html>
